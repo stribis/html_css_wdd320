@@ -1,0 +1,42 @@
+<!-- 
+  Browsers have default styles for when they load an HTML document up.
+  This means that even if you don't have any CSS, your browser will style certain elements using their default rules.
+  As a web designer you want to prevent this, since you want to be able to define YOUR OWN styles.
+
+  We use reset styles to prevent this
+  
+  A very minimal reset style would be to just set margin and padding back to 0.
+  Example:
+  * {
+    margin: 0;
+    padding 0;
+  }
+
+  But you can also reset other properties if you want.
+
+  Here are a couple of popular CSS resets;
+  Eric Meyer web Reset: https://meyerweb.com/eric/tools/css/reset/
+  HTML5 Doctor CSS Reset: http://html5doctor.com/html-5-reset-stylesheet/
+  Russ Weakly CSS Reset: http://maxdesign.com.au/articles/css-reset/
+
+  You can also use a CSS reset library such as
+  Normalize CSS : https://necolas.github.io/normalize.css/
+
+  Or you could also build your own!
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset</title>
+  <!-- Always link reset BEFORE your own stylesheet -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  
+</body>
+</html>

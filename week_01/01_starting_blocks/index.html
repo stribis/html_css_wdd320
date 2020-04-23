@@ -1,0 +1,110 @@
+<!-- 
+  We used this file to test out the capabilities of our code editor
+  For the lesson we used Visual Studio Code
+
+  A couple of notable things:
+  1. Emmet is a tool that gives use auto complete options in the code editor
+    a. We can write html:5 in an HTML document and we will get a small boilerplate starter template
+    b. There is no need to write the whole tag e.g. <section></section>. Just writing section and pressing tab or enter is enough
+    c. You can use emmet to create multiple elements e.g. ul>li*5>a will create an <ul> with 5 <li>'s with <a> elements
+    I recommend using this cheat sheet to learn the commands: https://docs.emmet.io/cheat-sheet/
+
+  2.  Remeber to save you changes before viewing them
+      CTRL-S in windows or CMD-S in mac
+    Visual Code Shortcuts Windows https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+    Visual Code Shortcuts Mac-OS  https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+
+  3. Open your whole project folder to have all the files you need in your workspace
+    tip: if you want to use the live server plugin then you have to open the whole folder. It does not work if you just open single files
+
+  4. Keep your code tidy.
+    a. Use comments to know what what is in your HTML and CSS
+    b. Use indentation to visuilize your nesting
+    c. Be consistent!
+      - use the same amount of spaces
+      - name your files using lowercase only
+    tip: There are many different code formatting guidelines. This is usually determined by the team working on the code.
+         Some teams use spaces for indentation some use tabs.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #hauptheader {
+      background: orange;
+    }
+
+    nav {
+      background: skyblue;
+    }
+
+    .underline a {
+      text-decoration: none;
+    }
+
+    main {
+      background: lime;
+    }
+
+    main header {
+      background: cornflowerblue;
+    }
+
+    aside {
+      background: pink;
+    }
+
+    footer {
+      background: blueviolet;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Header start -->
+  <header id="hauptheader">
+    <div>
+      <img src="http://placekitten.com/200/300" alt="A black and brown cat playing with a ball of yarn">
+      <h1>HTML5 & CSS3</h1>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    </div>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="underline"><a href="#">Beispiele</a></li>
+        <li class="underline"><a href="#">Barriere...</a></li>
+        <li class="underline"><a href="#">Helfer</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header End -->
+  <!-- Main start -->
+  <main>
+    <header>
+      <h3>Lorem, ipsum dolor.</h3>
+    </header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat.</p>
+  </main>
+  <!-- Main End -->
+  <aside>
+    <p>Ich bin Aside</p>
+  </aside>
+  <!-- Footer Start -->
+  <footer>
+    <p>Ich bin Footer</p>
+  </footer>
+  <!-- Footer End -->
+</body>
+</html>

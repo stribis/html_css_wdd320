@@ -1,0 +1,50 @@
+<!-- 
+  In this document you will see the 3 ways to use CSS with HTML
+
+  1.  The link tag. This tag is issued to link EXTERNAL CSS files to your HTML
+      To use the link tag you need 3 attributes, a 'rel' set to 'stylesheet' and a 'hreg' with your CSS file's path
+
+  2.  Style Tag. The style tag is a tag in which you can write CSS as content.
+
+  3.  Inline style attribute. Another way of using CSS in a HTML is by assigning styles to the specific tags. 
+      You do not need to use CSS selectors for this and styles defined this way have the second highest priority in CSS (after !important)
+      
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Linking</title>
+  <!-- 1 . Link Tag (For linking external css files) -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 2.  Style Tag -->
+  <style>
+    
+    ol {
+      border: black dashed 2px;
+    }
+
+    h1 {
+      color: greenyellow !important;
+    }
+
+  </style>
+</head>
+<body>
+  <!-- 3. Inline Style -->
+  <h1 style="color:red; font-family: sans-serif;">Hello World</h1>
+
+  <ol>
+    <li>foo</li>
+    <li>bar</li>
+    <li>baz</li>
+    <li>pop</li>
+    <li>jop</li>
+  </ol>
+
+  <p>Lorem ipsum dolor sit, amet <span>consectetur</span> adipisicing elit.</p>
+
+</body>
+</html>

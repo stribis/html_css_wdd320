@@ -1,0 +1,145 @@
+<!-- This  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <style>
+
+    /* 
+      The element selector
+      Selects everyelement with the given name
+      (This selector selects all h1 elements in this page )
+     */
+    h1 {
+      text-decoration: underline;
+    }
+
+    /*
+      The comma separator
+      Used to select multiple types of elements
+      ( This selector selects all h1 and all p elements in this page)
+    */
+    h1, p {
+      font-family: Helvetica, cursive;
+    }
+
+    p {
+      color: green;
+    }
+
+    /*
+      The class selector
+      This selctor will select an element with a given class
+      (in this case we are selecting a all p elements with the class 'foo')
+      ** Remember the class is an attribute you can use on any HTML Tag
+    */
+    p.foo{
+      color:red;
+      text-decoration: underline;
+    }
+
+    /*
+      The attribute selector
+      With this you can select an element with a specific attribute
+      ( For example we can select all images with alt attributes )
+    */
+    img[alt] {
+     border: solid 5px black; 
+    }
+
+    /*
+      The attibute selector can be also used with a value
+      If you give a value then only the elements with an attribute with this specific value will be selected
+      ( Here we select only the img elements with an alt attribute of "Another kitty")
+    */
+    img[alt="Another kitty"] {
+      border: solid 5px hotpink; 
+    }
+    
+    /*
+      The direct child selector
+      This selects a child element which is directly descendant of another element
+      This about nesting levels (verschatelung)
+      (In this case we are selecting all div's which are directly descendant child elements of sections)
+    */
+    section > div {
+      border: solid 1px black;
+    } 
+
+    /*
+      Hover is a pseudo class
+      It is like a separate state of an element
+      Hover will activate when a user goes over an element with the cursor
+      ( When we hover over p elements, their background adn color properties will change )
+    */
+    p:hover {
+      background: slateblue;
+      color: black;
+    }
+    
+    /*
+      The nth-child() Pseudo Class
+      We can use this to select a specific set of elements
+      For example nth-child(1) will select the first element
+      nth-child(even) will select the even number of elements 
+      ( This will select ever other odd li in ul )
+    */
+    ul > li:nth-child(odd){
+      background: lightgrey;
+    }
+
+    /*
+      Selects the nth element of a specific type
+      They have to have the specified type, in this case it has to be a p
+      ( This selects the first p in div's)
+    */
+    div p:nth-of-type(1){
+      color: darkblue;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 class="foo">Hello World</h1>
+
+  <section>
+    <div>
+      <p class="foo">Lorem ipsum dolor sit amet.</p>
+      <p class="foo">Lorem ipsum dolor sit amet.</p>
+      <p class="foo">Lorem ipsum dolor sit amet.</p>
+      <img src="http://placekitten.com/200/300" alt="A kitty cat">
+      <div>Foo Bar Baz</div>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum <span>dolor</span> sit amet.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <img src="http://placekitten.com/200/300" alt="Another kitty">
+      <div>Foo Bar Baz</div>
+    </div>
+  </section>
+
+  <ol>
+    <li>Foo</li>
+    <li>Bar</li>
+    <li>Baz</li>
+    <li>Foo</li>
+    <li>Bar</li>
+    <li>Baz</li>
+  </ol>
+
+  <ul>
+    <li>Foo</li>
+    <li>Bar</li>
+    <li>Baz</li>
+    <li>Foo</li>
+    <li>Bar</li>
+    <li>Baz</li>
+  </ul>
+
+
+</body>
+</html>
