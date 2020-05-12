@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Units</title>
+  <style>
+  /* Reset Styles */
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Div with the id blocky */
+  #blocky {
+    width: 50vw;
+    height: 50vh;
+    background: #333;
+    color: white;
+  }
+
+  /* Div with the id blockyJr */
+  #blockyJr {
+    width: 50%;
+    height: 100px;
+    background: greenyellow;
+  }
+
+  /* Div with the id blockysWife */
+  #blockysWife {
+    width: 50%;
+    height: 200px;
+    background: rgba(255, 8, 131, 0.589);
+  }
+
+
+  /* All <ul> elements */
+  ul {
+    font-size: 2em;
+  }
+
+  /* Direct childs of <ul> elements which are <li>s */
+  ul > li {
+    font-size: 2em;
+  }
+
+  /* All <ol> elements */
+  ol {
+    font-size: 2rem;
+  }
+
+  /* Direct childs of <ol> elements which are <li>s */
+  ol > li {
+    font-size: 2rem;
+  }
+
+  </style>
+</head>
+<body>
+  <!-- Blocky uses viewport and will always be sized relative to the size of the window -->
+  <div id="blocky">
+    I am sized with viewport
+    <!-- Blocky's son, Blocky JR. uses % and will be sized relative to the size of Blocky -->
+    <div id="blockyJr">I use %</div>
+  </div>
+  <!-- Blocky's Wife uses % and will be sized relative to the size of the body -->
+  <div id="blockysWife">
+    I use %
+  </div>
+
+  <!-- Unordered List with em -->
+  <ul>
+    <li>Foo</li>
+    <li>Foo</li>
+    <li>Foo</li>
+  </ul>
+
+  <!-- Ordered List with rem -->
+  <ol>
+    <li>Foo</li>
+    <li>Foo</li>
+    <li>Foo</li>
+  </ol>
+</body>
+</html>

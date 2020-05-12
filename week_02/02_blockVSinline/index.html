@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block vs. Inline</title>
+  <style>
+    /* All div elements */
+    div {
+      background: indigo;
+      height: 3rem;
+      margin: 5rem;
+      padding: 1rem;
+    }
+
+    /*  All <p> Elements */
+    p {
+      background: lightgrey;
+    }
+
+    /* All <span> elements inside <p>s */
+    p span {
+      background: red;
+      height: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- 
+    This div is a block element by default.
+    They will create a new line.
+    It will be as wide as it can,
+    it will be as high as necessary.
+    It can have width and height,
+    it can also use margin & padding
+  -->
+  <div id="block">I am Block</div>
+
+  <!-- 
+    The span here is an inline element by default.
+    They will not create a new line.
+    It can only be as wide and high as necessary.
+    It will ignore width and height
+    It can have margin and padding
+   -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Voluptate</span> optio quisquam consectetur laboriosam incidunt aperiam.</p>
+
+  <!-- 
+    Images are inline-block elements 
+    They are just like inline elements, except they can have a width and height
+    The will not create a new line.
+    Handle them as inline elements, if there is space between them, then it will be interpreted as a space.
+  -->
+  <section>Hello
+    <img src="https://placedog.net/500" alt="">
+    <img src="https://placedog.net/500" alt="">
+    <img src="https://placedog.net/500" alt="">
+  </section>
+</body>
+</html>

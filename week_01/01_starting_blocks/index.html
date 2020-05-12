@@ -36,17 +36,38 @@
   <title>Document</title>
   <style>
 
+    /* Reset styles */ 
     * {
       margin: 0;
       padding: 0;
     }
 
+    /* The height is set to 30 vh */
+    /* It represents 30 / 100 units of the viewport's height */
     #hauptheader {
+      width: 100%;
+      height: 30vh;
       background: orange;
     }
 
+    /* We want our navigation to clear or "come after" our floating elemtns */
     nav {
-      background: skyblue;
+      clear: left;
+    }
+
+    /* By Setting the display to inline block, the li's will be next to each other*/
+    nav ul li {
+      background: greenyellow;
+      display: inline-block;
+      /* Remember the clock*/
+      /* GO clockwise starting at 12 (top)*/
+      /*
+            12=top
+      9=left      3=right
+           6=bottom           
+      */
+      padding: 0.5rem 1rem;
+      margin:0 0.4rem;
     }
 
     .underline a {
@@ -55,6 +76,9 @@
 
     main {
       background: lime;
+      height: 50vh;
+      width: 60%;
+      float: left;
     }
 
     main header {
@@ -63,10 +87,23 @@
 
     aside {
       background: pink;
+      height: 50vh;
+      width: 40%;
+      float: right;
     }
 
     footer {
       background: blueviolet;
+      height: 20vh;
+      width: 100%;
+      clear: both;
+    }
+
+
+    /* LOGO */
+    #logo { 
+      height: 100px;
+      float: left;
     }
 
   </style>
@@ -74,8 +111,8 @@
 <body>
   <!-- Header start -->
   <header id="hauptheader">
-    <div>
-      <img src="http://placekitten.com/200/300" alt="A black and brown cat playing with a ball of yarn">
+    <div >
+      <img id="logo" src="http://placekitten.com/200/300" alt="A black and brown cat playing with a ball of yarn">
       <h1>HTML5 & CSS3</h1>
       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
     </div>
