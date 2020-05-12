@@ -28,7 +28,7 @@
 --- 
 
 ### :two: Week 2: :two:
-### :file_folder: [`week_01`](https://github.com/stribis/html_css_wdd320/tree/master/week_02)
+### :file_folder: [`week_02`](https://github.com/stribis/html_css_wdd320/tree/master/week_02)
 #### HTML & CSS Basics
 
 * Units
