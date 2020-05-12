@@ -1,0 +1,52 @@
+
+/* CSS Reset */
+
+body {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+/* 
+  This is our container
+  Remember when using flex we always use the container and not child items
+*/
+.container {
+  padding: 1rem;
+  width: 900px;
+  height: 900px;
+  background: rgb(177, 0, 177);
+  border: solid 1px black;
+  /* First set the display to flex */
+  display: flex;
+  /* You can change the direction if you desire (row/column/row-reverse/column-reverse) */
+  flex-direction: row;
+  /* Vertical orientation */
+  align-items: center;
+  /* Horizontal orientations */
+  justify-content: space-evenly;
+  /*
+    REMEMBER
+    Changing the flex-direction
+    also changes the orientation of align-items and justify-content
+  */
+  
+  /* 
+    flex-wrap: wrap; 
+    Lets the elements go to the next line if there is not enough space
+  */
+}
+
+
+/* We DO NOT use display flex on the items*/
+.item{
+  background: orange;
+  border: solid 1px #333;
+  width: 150px;
+  height: 200px;
+}

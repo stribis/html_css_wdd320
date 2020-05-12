@@ -1,0 +1,75 @@
+/* Reset */
+
+body {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+header {
+  width: 100%;
+  height: 20vh;
+  background: orange;
+  /* We want to push the navigation down and center it horizontally */
+  display: flex;
+  /* Push down */
+  align-items: flex-end;
+  /* Center */
+  justify-content: center;
+}
+
+nav > ul {
+  /* We want our li's to be displayed in a row */
+  display: flex;
+  /* no need to specify direction since row is the standard */
+}
+
+nav > ul > li {
+  padding: 0.3rem;
+  margin: 0 1rem;
+  list-style: none;
+  background: purple;
+}
+
+nav > ul > li > a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+/*--------*/
+/* Container für main & aside */
+/*--------*/
+.container {
+  /* Make the items (main and aside) be next to each other */
+  /* Just change the direction to row by using flex */
+  display: flex;
+}
+
+main{
+  width: 60%;
+  height: 60vh;
+  background: lime;
+}
+
+aside{
+  width: 40%;
+  height: 60vh;
+  background: purple;
+}
+
+/*--------*/
+/* Footer */
+/*--------*/
+footer {
+  width: 100%;
+  height: 30vh;
+  background: red; 
+}

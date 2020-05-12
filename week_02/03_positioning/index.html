@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positioning</title>
+
+  <style>
+
+    body {
+      box-sizing: border-box;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* CSS Reset (New version with box-sizing) */
+    *, *:after, *:before {
+      box-sizing: inherit;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* The huge grey container */
+    .wrapper {
+      width: 90vw;
+      height: 90vh;
+      background: lightgrey;
+      position: relative;
+    }
+
+    /* General styles for all blocks*/
+    .block {
+      height: 150px;
+      width: 150px;
+    }
+
+    /* 
+      Static block 
+      Since static is the standard position for elements,
+      we do not need to specifically say position:static;
+    */
+    .static{
+      background: red; 
+    }
+
+    /* 
+      Relative block 
+      Is still in the HTML flow
+      The element is positioned relative to its normal position, 
+      so "left:20px" adds 20 pixels to the element's LEFT position 
+    */
+    .relative {
+      background: blue;
+      position: relative;
+      right: 150px;
+    }
+
+    /* 
+      Absolute block 
+      Is NOT in the HTML flow
+      The element is positioned relative to its first positioned (not static) ancestor element
+    */
+    .absolute {
+      background: lime;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    /*
+      Position fixed
+      The element is positioned relative to the browser window
+    */
+    .fixed {
+      background: hotpink;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+    }
+
+
+    /* 
+      sticky
+      The element is positioned based on the user's scroll position
+      A sticky element toggles between relative and fixed, depending on the scroll position. 
+      It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+      Note: Not supported in IE/Edge 15 or earlier. Supported in Safari from version 6.1 with a -webkit- prefix.
+    */
+
+  </style>
+
+</head>
+<body>
+  
+  <div class="wrapper">
+    <div class="block static"></div>
+    <div class="block relative"></div>
+    <div class="block absolute"></div>
+    <div class="block fixed"></div>
+  </div>
+
+</body>
+</html>
