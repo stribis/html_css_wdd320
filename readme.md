@@ -24,11 +24,8 @@
 * CSS Selectors
   * Learning and implementing the different CSS selectors available
   * :file_folder: [`05_css_selectors`](https://github.com/stribis/html_css_wdd320/tree/master/week_01/05_css_selectors)
+  
 --- 
-
----
-
----
 
 ### :two: Week 2: :two:
 ### :file_folder: [`week_01`](https://github.com/stribis/html_css_wdd320/tree/master/week_02)
