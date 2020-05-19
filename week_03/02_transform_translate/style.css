@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  height: 600px;
+  background: #666;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  background: hotpink;
+  position: relative;
+  /* We can center the element by separating it 50% from the top and left edges */
+  /* However the element will not be truely centered */
+  left: 50%;
+  top: 50%;
+  /* To truely center it, we need to make a small correction, by moving the elements 50% of its own width and height to the sides */
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* As long as the container element has a specified width, we can use margin: 0 auto; to center a block element horizontally */
+.item_2 {
+  height: 100px;
+  width: 100px;
+  background: lime;
+  margin: 0 auto;
+}

@@ -1,0 +1,160 @@
+/*
+  ----------
+  Main CSS file for PopQuiz.gg
+  Author: Martin Hutchings
+  ----------
+  INDEX
+  Ctrl-F "#x" to find
+  ----------
+  #1: Fonts
+  #2: Main Header
+  #3: Products Section
+  #4: About Section
+  #5: Footer
+*/
+
+
+/* #1 Fonts */
+body{
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+h2{
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* #2 Main Header */
+
+#main-header {
+  padding: 3rem 0;
+  background: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+#main-header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#main-header nav ul li {
+  padding: 1rem;
+}
+
+#main-header nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+
+#main-header nav ul li a:hover{
+  color: rgb(255, 115, 0);
+  text-decoration: underline;
+}
+
+/* #3 Products */
+
+#products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+#products .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#products .boxes .box {
+  padding: 2rem;
+  border: solid 2px #222;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#products img {
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
+
+#products ol li{
+  line-height: 1.5;
+}
+
+#products p {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin: 2rem 0;
+}
+
+#products button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  background:  #222;
+  font-weight: 800;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+#products button:hover {
+  cursor: pointer;
+  color: rgb(255, 115, 0);
+}
+
+/* #4 About */
+
+#about {
+  padding: 4rem;
+  background: #222;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about p {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#about p > span {
+  color: rgb(255, 115, 0);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+/* #5 Main Footer*/
+
+#main-footer{
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}

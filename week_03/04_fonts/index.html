@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <style>
+    /* Import font from hosting service */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+    /* Create Font Face */
+    /* We have to use the font family we define here */
+    @font-face {
+      font-family: 'Squada';
+      /* The source is just the path of the file we want to use*/
+      src: url('SquadaOne-Regular.ttf');
+    } 
+    
+    /* ALWAYS have a fallback font! */
+
+    h3 {
+      font-family: 'Squada', sans-serif;
+    }
+
+    p {
+      font-family: 'Pangolin', cursive;
+    }
+
+    h2 {
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    /* Font Icons are resizeable and we can change their color */
+    /* They work just like normal text! */
+
+    i {
+      font-size: 3rem;
+      color: orange;
+    }
+
+    i:hover{
+      color: plum;
+    }
+  </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero.</p>
+  <h2>Lorem, ipsum.</h2>
+  <h3>Lorem ipsum dolor sit amet.</h3>
+
+  <i class="fab fa-facebook-f"></i>
+</body>
+</html>

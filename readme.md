@@ -67,4 +67,41 @@
 
 --- 
 
----
+### :three: Week 3: :three:
+### :file_folder: [`week_03`](https://github.com/stribis/html_css_wdd320/tree/master/week_03)
+#### HTML & CSS Basics
+
+* PopQuiz
+  * We tested our knowledge of Flex as a layout tool
+    * Created a simple website using flex for layout
+    * We tried to not define `width` our `height` if not necessary
+      * Instead use `padding` to use the size of the content and add to it
+  * :file_folder: [`01_pop_quiz`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/01_pop_quiz)
+* Centering: `transform : translate()` and `margin: 0 auto`
+  * Learned more techniques for centering elements 
+  * :file_folder: [`02_transform_translate`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/02_transform_translate)
+* Gradients
+  * We reviewed the syntax for `background-image: linear-gradient()`
+    * `simple.html` is the first part
+    * `index.html` and `style.css` are for the exercise where we had to create flags
+      * **Try to create recreate the last 3 flags without looking at the code**
+  * :file_folder: [`03_gradients`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/03_gradients)
+* Positioning
+  * Reviewed the position property and 4 different values
+    * `position: static`
+    * `position: relative`
+    * `position: absolute`
+    * `position: fixed`
+  * :file_folder: [`03_positioning`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/03_positioning)
+* Fonts & Font icons
+  * Checked out webfonts (like google fonts) with `@import` & `<link>` 
+  * Learned how to like font files from your project directory
+    * First `@font-face` to define the font name and path
+    * Then `font-family` to use the font !
+    * Linked a font-icon from https://fontawesome.com/
+      * Remember to have the correct `<link>` path
+      * Remember to have the correct `class` in your element!
+  * :file_folder: [`04_fonts`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/04_fonts)
+
+  ---
+  ###### More coming next week :) 
