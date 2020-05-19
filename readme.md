@@ -3,6 +3,7 @@
 #### :school: SAE Institute Zürich
 #### :pencil2: Author: Martin Hutchings - Head Instructor
 
+###### THIS IS DOES NOT REPRESENT EVERYTHING WE DID DURING THE LESSON, ONLY THE PRACTICAL EXERCISES!
 ---
 
 ### :one: Week 1: :one:
