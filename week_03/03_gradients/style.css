@@ -75,7 +75,7 @@ div:nth-child(4){
   position: relative;
 }
 
-div:nth-child(4)::after{
+div:nth-child(4)::before{
   content: '';
   background: #3C3B6E;
   position: absolute;
@@ -83,6 +83,7 @@ div:nth-child(4)::after{
   left: 0;
   height: 53.85%;
   width: 40%;
+  z-index: 9999999;
 }
 
   /*Zimbabwe*/
