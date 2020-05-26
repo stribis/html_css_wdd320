@@ -1,0 +1,25 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+/* Variables */
+:root{
+  --pri-color: #000;
+  --sec-color: #ff4069;
+  --ter-color: #ffd171;
+  --ter-dark-color: #fda742;
+  --qua-color: #fff;
+  --font-main: 'Indie Flower', cursive;
+}
+
+
+/* === Small CSS Reset === */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, *::after, *::before{
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}

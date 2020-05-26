@@ -105,4 +105,55 @@
   * :file_folder: [`04_fonts`](https://github.com/stribis/html_css_wdd320/tree/master/week_03/04_fonts)
 
   ---
-  ###### More coming next week :) 
+### :four: Week 4: :four:
+### :file_folder: [`week_04`](https://github.com/stribis/html_css_wdd320/tree/master/week_04)
+#### HTML & CSS Basics
+
+* Box Shadow Homework
+  * Using box shadow to create special effects
+    * Remember the syntax `box-shadow: color xPosition yPosition blur spread`
+      * More info here : https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+  * :file_folder: [`01_box_shadow`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/01_box_shadow)
+* Stack of images
+  * Using box shadow to create special effects
+    * Remember the syntax `box-shadow: color xPosition yPosition blur spread`
+      * More info here : https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+  * :file_folder: [`02_bilderstapel`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/02_bilderstapel)
+* CSS Sprites
+  * Using background-image to implement sprites
+    * A sprite file is basically an image with multiple images inside it
+    * Using background position we can move the image around to define which part of the image is shown
+      * More info here : https://www.w3schools.com/css/css_image_sprites.asp
+  * :file_folder: [`03_css_sprites`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/03_css_sprites)
+* Form Basics
+  * The HTML involved in creating forms
+    * Remember to always have a `label` for your `input`s, link them together using `for=""` and `id=""`
+      * More info here : https://www.w3schools.com/tags/tag_label.asp
+  * :file_folder: [`04_forms_basics`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/04_forms_basics)
+* Form with CSS
+  * The CSS involved in creating forms
+    * :file_folder: [`05_forms_styled`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/05_forms_styled)
+* Layout Exercise (ONLY HTML)
+  * We went through identifying and setting the correct HTML elements needed for a specific layout
+  * Here is the layout we were trying to recreate: https://cdn.discordapp.com/attachments/689086496208191671/714862960853516288/D__sae_320_02_html_css_examples_hazbin_flex.html.png
+    * Additionally you need the following infomation
+      * You need the images (In the images folder)
+      * The fonts are :
+      ```css
+      @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+      ```
+      * The colors you will need are:
+      ```
+        --pri-color: #000;
+        --sec-color: #ff4069;
+        --ter-color: #ffd171;
+        --ter-dark-color: #fda742;
+        --qua-color: #fff;
+      ```
+      * We will discuss the finished example next time
+  * :file_folder: [`06_hazbin_layout_nur_html`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/06_hazbin_layout_nur_html)
+* Layout Exercise (Complete)
+  * Use this if you want to compare your work with mine. 
+    * Remember there are multiple solutions to one problem!
+  * :file_folder: [`07_hazbin_layout_complete`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/07_hazbin_layout_complete)
