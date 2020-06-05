@@ -157,3 +157,33 @@
   * Use this if you want to compare your work with mine. 
     * Remember there are multiple solutions to one problem!
   * :file_folder: [`07_hazbin_layout_complete`](https://github.com/stribis/html_css_wdd320/tree/master/week_04/07_hazbin_layout_complete)
+
+
+  ---
+### :five: Week 5: :five:
+### :file_folder: [`week_05`](https://github.com/stribis/html_css_wdd320/tree/master/week_05)
+#### HTML & CSS Basics
+
+* Dummie Exam - Solution
+  * :file_folder: [`01_probe_test`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/01_probe_test)
+* Test Your Knowledge Exercise with solutions
+  * :file_folder: [`02_testYourKnowledge`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/02_testYourKnowledge)
+* HTML Tables
+  * Elements for HTML Tables:
+    1. Simple styled table
+    2. Table with col/row span
+    3. Table puzzle with odd / even
+      * More info here : https://www.w3schools.com/html/html_tables.asp
+  * :file_folder: [`03_tables`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/03_tables)
+* Iframes
+  * How do iframes work and how to implement them
+    * More info here : https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+  * :file_folder: [`04_iframe`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/04_iframe)
+* Dropdown Navigation with CSS hover
+  * The CSS and HTML involved in creating a dropdown navigation
+    * :file_folder: [`05_dropdown_nav`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/05_dropdown_nav)
+* Layout Exercise: Freelancer (ONLY HTML)
+  * We went through identifying and setting the correct HTML elements needed for a specific layout
+  * Here is the layout we were trying to recreate: https://startbootstrap.com/previews/freelancer/
+    * We will discuss the finished example next time
+  * :file_folder: [`06_layout_freelancer_html_only`](https://github.com/stribis/html_css_wdd320/tree/master/week_05/06_layout_freelancer_html_only)

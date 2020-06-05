@@ -1,0 +1,205 @@
+
+/* Exercise 1 : */
+.ex-1 ul li li{
+  font-family: monospace;
+}
+
+/* Exercise 2 : */
+.ex-2 ul > li:nth-child(1){
+  color:blue;
+}
+.ex-2 ul > li:nth-child(2){
+  color:red;
+}
+.ex-2 ul > li:nth-child(3){
+  color:purple;
+}
+.ex-2 ul > li:nth-child(4){
+  color:yellow;
+}
+
+/* Exercise 3 : */
+.ex-3 #policeman{
+  text-decoration: underline overline blue;
+}
+.ex-3 #policeman ~ li{
+  text-decoration: line-through;
+}
+.ex-3 #policeman + li{
+  text-decoration: underline double red;
+}
+
+/* Exercise 4 : */
+.ex-4 .layout-container header{
+  width: 100%;
+  height: 25%;
+  background: white;
+  border: solid 1px black;
+}
+.ex-4 .layout-container main{
+  width: 60%;
+  height: 35%;
+  background: white;
+  float: left;
+  border: solid 1px black;
+}
+.ex-4 .layout-container aside{
+  width: 40%;
+  height: 35%;
+  background: white;
+  float: right;
+  border: solid 1px black;
+}
+.ex-4 .layout-container section{
+  width: 100%;
+  height: 30%;
+  background: white;
+  clear: both;
+  border: solid 1px black;
+}
+.ex-4 .layout-container footer{
+  width: 100%;
+  height: 10%;
+  background: white;
+  border: solid 1px black;
+}
+
+/* Exercise 5 : */
+.ex-5 .layout-container header{
+  width: 100%;
+  height: 25%;
+  background: white;
+  border: solid 1px black;
+}
+
+.ex-5 .layout-container aside{
+  width: 30%;
+  height: 35%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-5 .layout-container main{
+  width: 40%;
+  height: 35%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-5 .layout-container section{
+  width: 50%;
+  height: 30%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-5 .layout-container footer{
+  width: 100%;
+  height: 10%;
+  background: white;
+  border: solid 1px black;
+  clear: both;
+}
+
+/* Exercise 6 : */
+.ex-6 .layout-container header{
+  width: 100%;
+  height: 25%;
+  background: white;
+  border: solid 1px black;
+}
+.ex-6 .layout-container header ul, .ex-6 .layout-container header nav{
+  height: 100%;
+}
+.ex-6 .layout-container header li{
+  width: 25%;
+  height: 100%;
+  background: white;
+  border: black 1px dashed;
+  float: left;
+}
+
+.ex-6 .layout-container aside{
+  width: 30%;
+  height: 35%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-6 .layout-container aside ul{
+  height: 100%;
+}
+.ex-6 .layout-container aside li{
+  width: 100%;
+  height: 20%;
+  background: white;
+  border: black 1px dashed;
+}
+
+.ex-6 .layout-container main{
+  width: 40%;
+  height: 35%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-6 .layout-container section{
+  width: 100%;
+  height: 30%;
+  background: white;
+  border: solid 1px black;
+  float: left;
+}
+
+.ex-6 .layout-container section article{
+  width: 25%;
+  height: 100%;
+  background: white;
+  border: black 1px dashed;
+  float: left;
+}
+
+
+.ex-6 .layout-container footer{
+  width: 100%;
+  height: 10%;
+  background: white;
+  border: solid 1px black;
+  clear: both;
+}
+
+/* Exercise 7 : */
+.ex-7 .layout-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Exercise 8 : */
+.ex-8 .layout-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exercise 9 : */
+.ex-9 .layout-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exercise 10 : */
+.ex-10 .layout-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
