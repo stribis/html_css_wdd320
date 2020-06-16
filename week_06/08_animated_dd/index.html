@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Dropdown</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    nav {
+      background: purple;
+    }
+
+    nav > ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+    }
+
+    nav > ul > li {
+      background: pink;
+      padding: 1rem 2rem;
+    }
+
+    .trigger {
+      position: relative;
+    }
+
+    .dropdown-nav {
+      background: purple;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      list-style: none;
+      display: none;
+    }
+
+    .trigger:hover .dropdown-nav {
+      display: block;
+    }
+
+    .dropdown-nav > li {
+      padding: 1rem 2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>Link 1</li>
+      <li>Link 2</li>
+      <li>Link 3</li>
+      <li class="trigger">Link 4
+        <ul class="dropdown-nav">
+          <li>Sub Link 1</li>
+          <li>Sub Link 2</li>
+          <li>Sub Link 3</li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

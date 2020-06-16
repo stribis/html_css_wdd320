@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: #222;
+}
+
+nav {
+  background: palegreen;
+}
+
+nav > ul {
+  display: -webkit-box;
+  display: flex;
+  list-style: none;
+}
+
+nav  ul  li {
+  padding: 1rem 1.2rem;
+} 
+/* Element that we will hover on to trigger the dd-nav */
+#trigger{
+  position: relative;
+  background: red;
+}
+
+/* The styles for the dropdown nav*/
+#subnavi {
+  top: 100%;
+  left: 0;
+  background: palevioletred;
+  list-style: none;
+  transition: 1s;
+  transform: scaleY(0);
+  transform-origin: top;
+  position: absolute;
+}
+
+
+#trigger:hover > #subnavi {
+
+  transform: scaleY(1);
+
+} 

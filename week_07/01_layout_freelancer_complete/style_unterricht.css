@@ -1,0 +1,295 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Navigation */
+
+nav {
+  background-color: rgb(44, 62, 80);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav .logo a {
+  font-size: 1.7rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 3rem;
+}
+
+/* Header */
+
+header {
+  padding: 6rem 0;
+  background: #1abc9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+header h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+header h3 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+/* Star */
+
+.star {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 1rem 0;
+}
+
+.star .fa-star {
+  font-size: 2rem;
+}
+
+.star .star-line {
+  background: white;
+  width: 7rem;
+  height: 0.24rem;
+  margin: 0 1.2rem;
+  border-radius: 0.25rem;
+}
+
+/* Portfolio */
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+#portfolio h2 {
+  color: #2c3e50;
+  font-size: 3rem;
+}
+
+#portfolio .star {
+  color: #2c3e50; 
+}
+
+#portfolio .star-line {
+  background: #2c3e50;
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row img {
+  display: block;
+  width: 20rem;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+}
+
+/* About  */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  background: #1abc9c;
+}
+
+#about h2 {
+  color: white;
+  font-size: 3rem;
+  
+}
+
+#about .texts {
+  display: flex;
+}
+
+#about p {
+  font-size: 1.2rem;
+  width: 20rem;
+  font-weight: 300;
+  margin: 1rem;
+  color: white;
+}
+
+#about .cta {
+  background: transparent;
+  border: solid 2px white;
+  padding: 1rem 1.75rem;
+  color: white;
+  border-radius: 0.4rem;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+
+#about .cta:hover { 
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+#contact h2 {
+  color: #2c3e50;
+  font-size: 3rem;
+}
+
+#contact form {
+  padding: 0 3rem;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact form label {
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
+
+#contact form input {
+  font-size: 1.5rem;
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 1px #e9ecef solid;
+}
+
+#contact form input:focus {
+  outline: none;
+}
+
+#contact textarea {
+  font-family: 'lato', sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem 0 4rem 0;
+  border: none;
+  border-bottom: 1px #e9ecef solid;
+}
+
+#contact button {
+  background: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 1rem 1.75rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  align-self: flex-start;
+}
+
+/* Footer */
+
+footer .top-foot {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6rem 0;
+  background: #2c3e50;
+}
+
+footer .foot-section {
+  max-width: 30%;
+  padding: 0 2rem;
+}
+
+footer .top-foot h3 {
+  color: white;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+footer .top-foot p {
+  color: white;
+  font-weight: 300;
+}
+
+footer .sm {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .sm-icon {
+  width: 3.1rem;
+  height: 3.1rem;
+  color: white;
+  font-size: 1.5rem;
+  border: solid 1px white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer .bottom-foot {
+  background: #1a252f;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.9rem;
+}

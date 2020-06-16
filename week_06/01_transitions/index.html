@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transitions</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+      transition: 2s;
+    }
+
+    .colorChange:hover{
+      background: blue;
+    }
+
+    .move:hover {
+      background: yellow;
+      transform: translateX(200px);
+    }
+
+    .rotate:hover {
+      transform: rotate(360deg);
+    }
+
+
+  </style>
+</head>
+<body>
+  <p>Color Change</p>
+  <div class="box colorChange"></div>
+  <p>Move</p>
+  <div class="box move"></div>
+  <p>Rotate</p>
+  <div class="box rotate"></div>
+</body>
+</html>

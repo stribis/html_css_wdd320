@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: red;
+    }
+
+    .colorChange {
+      animation: colorChange 2s;
+    }
+
+    .move{
+      animation: movement 10s;
+    }
+
+    .rotate {
+      animation: rotate 2s;
+    }
+
+    @keyframes colorChange {
+      0% {
+        background: red;
+      }
+      100%{
+        background: blue;
+      }
+    }
+
+    @keyframes movement {
+      0%{
+        transform: translateX(0);
+        background: red;
+      }
+      50%{
+        transform:  translateX(150px);
+        background: yellow;
+      }
+      100%{
+        transform: translateX(0);
+        background: red;
+      }
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+      100%{
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>Color Change</p>
+  <div class="box colorChange"></div>
+  <p>Move</p>
+  <div class="box move"></div>
+  <p>Rotate</p>
+  <div class="box rotate"></div>
+</body>
+</html>
