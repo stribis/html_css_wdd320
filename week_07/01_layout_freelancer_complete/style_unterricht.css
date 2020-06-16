@@ -36,7 +36,7 @@ nav a {
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -70,12 +70,12 @@ header img {
 }
 
 header h1 {
-  color: white;
+  color: #fff;
   font-size: 4rem;
 }
 
 header h3 {
-  color: white;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -87,7 +87,7 @@ header h3 {
 .star {
   display: flex;
   align-items: center;
-  color: white;
+  color: #fff;
   margin: 1rem 0;
 }
 
@@ -148,7 +148,7 @@ header h3 {
 }
 
 #about h2 {
-  color: white;
+  color: #fff;
   font-size: 3rem;
   
 }
@@ -162,14 +162,14 @@ header h3 {
   width: 20rem;
   font-weight: 300;
   margin: 1rem;
-  color: white;
+  color: #fff;
 }
 
 #about .cta {
   background: transparent;
   border: solid 2px white;
   padding: 1rem 1.75rem;
-  color: white;
+  color: #fff;
   border-radius: 0.4rem;
   font-size: 1.25rem;
   margin: 2rem 0;
@@ -229,7 +229,7 @@ header h3 {
 
 #contact button {
   background: #1abc9c;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 0.4rem;
   padding: 1rem 1.75rem;
@@ -254,7 +254,7 @@ footer .foot-section {
 }
 
 footer .top-foot h3 {
-  color: white;
+  color: #fff;
   font-weight: 700;
   line-height: 1.2;
   font-size: 1.5rem;
@@ -262,7 +262,7 @@ footer .top-foot h3 {
 }
 
 footer .top-foot p {
-  color: white;
+  color: #fff;
   font-weight: 300;
 }
 
@@ -275,7 +275,7 @@ footer .sm {
 footer .sm-icon {
   width: 3.1rem;
   height: 3.1rem;
-  color: white;
+  color: #fff;
   font-size: 1.5rem;
   border: solid 1px white;
   border-radius: 50%;
@@ -291,7 +291,7 @@ footer .bottom-foot {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
   font-size: 0.9rem;
 }
 
@@ -315,7 +315,7 @@ footer .bottom-foot {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
   font-size: 5rem;
 }
 
